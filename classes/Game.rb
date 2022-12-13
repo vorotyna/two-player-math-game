@@ -1,7 +1,3 @@
-require "./Player"
-require "./Question"
-require 'pp'
-
 class Game 
   attr_accessor :player1, :player2, :turn
 
@@ -64,7 +60,3 @@ class Game
     new_turn
   end
 end
-
-new_game = Game.new
-new_game.start_game
-new_game.play
